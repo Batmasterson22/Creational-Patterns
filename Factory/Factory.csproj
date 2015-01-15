@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9505F7FB-3526-4F83-888D-9CE2896C7A31}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Factory</RootNamespace>
+    <AssemblyName>Factory</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllDayGenerator.cs" />
+    <Compile Include="CountryFilter.cs" />
+    <Compile Include="DinerGenerator.cs" />
+    <Compile Include="EveningGenerator.cs" />
+    <Compile Include="FoodItemData.cs" />
+    <Compile Include="HTMLFormatter.cs" />
+    <Compile Include="IFormatterFactoryMethod.cs" />
+    <Compile Include="GBAllDayHtml.cs" />
+    <Compile Include="GBAllDayPlain.cs" />
+    <Compile Include="GBAllDayXml.cs" />
+    <Compile Include="GBDinerHtml.cs" />
+    <Compile Include="GBDinerPlain.cs" />
+    <Compile Include="GBDinerXml.cs" />
+    <Compile Include="GBEveningHtml.cs" />
+    <Compile Include="GBEveningPlain.cs" />
+    <Compile Include="GBEveningXml.cs" />
+    <Compile Include="IGeneratorFactoryMethod.cs" />
+    <Compile Include="GetUserInput.cs" />
+    <Compile Include="IAbstractFactory.cs" />
+    <Compile Include="IMenuFormatter.cs" />
+    <Compile Include="IMenuGenerator.cs" />
+    <Compile Include="IOrderOfMenu.cs" />
+    <Compile Include="IReader.cs" />
+    <Compile Include="JSONReader.cs" />
+    <Compile Include="PlainFormatter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IReaderFactoryMethod.cs" />
+    <Compile Include="TheAllDayGenerator.cs" />
+    <Compile Include="TheDinerGenerator.cs" />
+    <Compile Include="TheEveningGenerator.cs" />
+    <Compile Include="TheHTMLFormatter.cs" />
+    <Compile Include="TheHtmlWriter.cs" />
+    <Compile Include="TheJSONReader.cs" />
+    <Compile Include="ThePlainFormatter.cs" />
+    <Compile Include="ThePlainTextWriter.cs" />
+    <Compile Include="TheXMLFormatter.cs" />
+    <Compile Include="TheXMLReader.cs" />
+    <Compile Include="TheXmlWriter.cs" />
+    <Compile Include="USAllDayHtml.cs" />
+    <Compile Include="USAllDayPlain.cs" />
+    <Compile Include="USAllDayXml.cs" />
+    <Compile Include="USDinerHtml.cs" />
+    <Compile Include="USDinerPlain.cs" />
+    <Compile Include="USDinerXml.cs" />
+    <Compile Include="USEveningHtml.cs" />
+    <Compile Include="USEveningPlain.cs" />
+    <Compile Include="USEveningXml.cs" />
+    <Compile Include="XMLFormatter.cs" />
+    <Compile Include="XMLReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

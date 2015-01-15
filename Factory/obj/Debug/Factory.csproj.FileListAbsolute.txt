@@ -1,0 +1,16 @@
+F:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Factory.exe.config
+F:\1 Capstone Project\CSE 460 Project 01\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
+F:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Factory.exe
+F:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Factory.pdb
+F:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Newtonsoft.Json.dll
+F:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Newtonsoft.Json.xml
+F:\1 Capstone Project\CSE 460 Project 01\Factory\obj\Debug\Factory.exe
+F:\1 Capstone Project\CSE 460 Project 01\Factory\obj\Debug\Factory.pdb
+K:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Factory.exe.config
+K:\1 Capstone Project\CSE 460 Project 01\Factory\obj\Debug\Factory.exe
+K:\1 Capstone Project\CSE 460 Project 01\Factory\obj\Debug\Factory.pdb
+K:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Factory.exe
+K:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Factory.pdb
+K:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Newtonsoft.Json.dll
+K:\1 Capstone Project\CSE 460 Project 01\Factory\bin\Debug\Newtonsoft.Json.xml
+K:\1 Capstone Project\CSE 460 Project 01\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
